@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fitness Tracker</string>
+    <string name="welcome_string">Welcome to FitnessTracker</string>
+    <string name="create_account">New user</string>
+    <string name="created_by">Created by Kensal Ramos</string>
+    <string name="begin_workout">Begin Workout</string>
+    <string name="begin_workout_description">Initiates set and rep tracker</string>
+    <string name="progress">Progress</string>
+    <string name="progress_description">Track your progress</string>
+    <string name="motivation">Motivation</string>
+    <string name="motivation_desc">Get your daily motivation</string>
+    <string name="your_account">Your Account</string>
+    <string name="your_account_desc">Everything about you</string>
+    <string name="welcome_user">Welcome @string/user_name</string>
+</resources>
