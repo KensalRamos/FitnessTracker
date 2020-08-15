@@ -86,6 +86,7 @@ public class MenuActivity extends AppCompatActivity {
         String filePath = context.getFilesDir().getPath().toString() + "/" + FILE_NAME;
         TextView welcomeText = (TextView) findViewById(R.id.welcomeUserText);
         String welcomeUser = "";
+        String userName = "";
 
         // Attempt to create scanner...
         try {
@@ -97,7 +98,9 @@ public class MenuActivity extends AppCompatActivity {
 
         // Take the first line of the file
         if (scanner.hasNext()) {
-            welcomeUser = getString(R.string.welcome_user, scanner.nextLine());
+            userName = scanner.nextLine();
+            userName = userName.substring(0, 1).toUpperCase() + userName.substring(1);
+            welcomeUser = getString(R.string.welcome_user, userName);
         }
         else {
             welcomeUser = "Welcome User";
