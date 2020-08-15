@@ -3,8 +3,9 @@ package com.example.fitnesstracker;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.LinearLayout;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.constraintlayout.widget.ConstraintLayout;
+
 import java.io.File;
 
 /*
@@ -29,9 +30,9 @@ public class MainActivity extends AppCompatActivity {
         // Read from text file to try and initialize user account
         // If unsuccessful, we will initiate the createAccountActivity instead of the MenuActivity
 
-        LinearLayout linearLayout = (LinearLayout) findViewById(R.id.mainLinearLayout);
+        ConstraintLayout constraintLayout = (ConstraintLayout) findViewById(R.id.mainLinearLayout);
 
-        linearLayout.setOnClickListener(new View.OnClickListener() {
+        constraintLayout.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
