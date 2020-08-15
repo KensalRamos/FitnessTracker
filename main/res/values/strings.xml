@@ -1,6 +1,9 @@
 <resources>
+    // Main Activity
     <string name="app_name">Fitness Tracker</string>
     <string name="welcome_string">Welcome to FitnessTracker</string>
+
+    // Menu Activity
     <string name="create_account">New user</string>
     <string name="created_by">Created by Kensal Ramos</string>
     <string name="begin_workout">Begin Workout</string>
@@ -11,5 +14,15 @@
     <string name="motivation_desc">Get your daily motivation</string>
     <string name="your_account">Your Account</string>
     <string name="your_account_desc">Everything about you</string>
-    <string name="welcome_user">Welcome @string/user_name</string>
+    <string name="welcome_user">Welcome %1$s</string>
+
+    // Create Account Activity
+    <string name="account">Update Account</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">Age</string>
+    <string name="weight">Weight (Pounds)</string>
+    <string name="height">Height (Inches)</string>
+    <string name="submit_button">Submit</string>
+    <string name="empty_textedit">Please fill all fields</string>
+
 </resources>
